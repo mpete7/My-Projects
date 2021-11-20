@@ -1,0 +1,56 @@
+<main id="main">
+  <h1 id="title">Steve Jobs</h1>
+  <p>The founder and CEO of Apple</p>
+  <figure id="img-div">
+    <img
+      id="image"
+      src="https://cdn.vox-cdn.com/thumbor/VkpZk_WQSQvGe9T7YYOZscGsOwI=/0x86:706x557/1200x800/filters:focal(0x86:706x557)/cdn.vox-cdn.com/assets/738480/stevejobs.png"
+      alt="Steve Jobs Book Review"
+    />
+    <figcaption id="img-caption">
+      Steve Jobs - The man who innovated a phone corporation and called it Apple.
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h3 id="headline">Steve Jobs's timeline of his life:</h3>
+    <ul>
+      <li>
+        <strong>1955</strong> - Jobs was born in San Francisco, California</li>
+      <li>
+        <strong>1976</strong> - Cofounded Apple with Steve Jobs and Steve Wozinak
+      </li>
+      <li>
+        <strong>1984</strong> - First Apple McIntosh built
+      </li>
+      <li>
+        <strong>1997</strong> - Becomes Apple Corporation's first CEO and creates first handheld iOS products.
+      </li>
+      <li>
+        <strong>2001</strong> - Creates Mac OS X
+      </li>
+      <li>
+        <strong>2003</strong> - Diagnosed with Pancreatic Cancer
+      </li>
+      <li>
+        <strong>2011</strong> - Dies at age 55 from cancer
+      </li>
+    </ul>
+    <blockquote
+      cite="https://www.biography.com/business-figure/steve-jobs"
+    >
+      <p>
+        "I like to believe there's an afterlife. I like to believe the accumulated wisdom doesn't just disappear when you die, but somehow it endures."
+      </p>
+      <cite>-- Steve Jobs</cite>
+    </blockquote>
+    <h3>
+      More info on Steve Jobs here at 
+      <a
+        id="tribute-link"
+        href="https://www.apple.com/stevejobs/"
+        target="_blank"
+        >Apple</a
+      >.
+    </h3>
+  </section>
+</main>
