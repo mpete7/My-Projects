@@ -1,0 +1,198 @@
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Football Injury Survey</h1>
+    <p id="description" class="description text-center">Please input your information below, thank you for completing this survey.</p>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+             type="text"
+             name="name"
+             id="name"
+             class="form-control"
+             placeholder="Enter your name"
+             required
+             />
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+             type="email"
+             name="email"
+             id="email"
+             class="form-control"
+             placeholder="Enter your Email"
+             required
+             />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age<span class="clue">(optional)</span></label>
+      <input
+             type="number"
+             name="age"
+             id="number"
+             min="10"
+             max="99"
+             class="form-control"
+             placeholder="Age"/>
+    </div>
+    
+    <div class="form-group">
+      <p>Have you completed your athletic physicals within the past month?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select Option</option>
+        <option value="response">Yes</option>
+        <option value="response">No</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <p>Have you ever had an injury in the past month?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select Option</option>
+        <option value="response">Yes</option>
+        <option value="response">No</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <p>How severe was the injury?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="sprain"
+          type="radio"
+          class="input-radio"
+          checked
+        />Sprain</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="sprain with inflammation"
+          type="radio"
+          class="input-radio"
+        />Sprain with Inflammation</label
+      >
+
+      <label
+        ><input
+          name="user-recommend"
+          value="total dislocation"
+          type="radio"
+          class="input-radio"
+        />Total Dislocation</label
+      >
+    </div>
+    
+    <div class="form-group">
+      <p>
+        What type of injury did you have?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="ankle sprain"
+          type="checkbox"
+          class="input-checkbox"
+        />Ankle Sprain</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="knee injury"
+          type="checkbox"
+          class="input-checkbox"
+        />Knee Injury</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="hamstring/groin injury"
+          type="checkbox"
+          class="input-checkbox"
+        />Hamstring/Groin injury</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="hip pointers"
+          type="checkbox"
+          class="input-checkbox"
+        />Hip pointers</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="shoulder dislocation"
+          type="checkbox"
+          class="input-checkbox"
+        />Shoulder Dislocation</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="wrist injury"
+          type="checkbox"
+          class="input-checkbox"
+        />Wrist Injury</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="concussion"
+          type="checkbox"
+          class="input-checkbox"
+        />Concussion</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="other"
+          type="checkbox"
+          class="input-checkbox"
+        />Other</label
+      >
+    </div>
+
+    <div class="form-group">
+      <p>Explain how you got this injury?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+    
+    <div class="form-group">
+      <p>How often were you treated for the injury?</p>
+      <select id="dropdown" name="frequency" class="form-control" required>
+        <option disabled selected value>Select frequency</option>
+        <option value="yearly">Yearly</option>
+        <option value="monthly">Monthly</option>
+        <option value="weekly">Weekly</option>
+        <option value="daily">Daily</option>
+        <option value="never had an injury">Never had an injury</option>
+      </select>
+    </div>
+    
+     <div class="form-group">
+      <p>Do you require medical assistance in the future?</p>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>Select Option</option>
+        <option value="response">Yes</option>
+        <option value="response">No</option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
