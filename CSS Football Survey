@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Times New Roman', helvetica;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4;
@@ -22,7 +22,7 @@ body {
   margin: 0;
 }
 
-/* mobile friendly alternative to using background-attachment: fixed */
+/* for background attachment */
 body::before {
   content: '';
   position: fixed;
@@ -117,10 +117,10 @@ button {
   text-align: center;
 }
 
-/* form */
+/* for the form of the survey page */
 
 form {
-  background: var(--color-darkblue-alpha);
+  background: var(--color-blue-alpha);
   padding: 2.5rem 0.625rem;
   border-radius: 0.25rem;
 }
@@ -179,3 +179,6 @@ form {
   border-radius: 2px;
   cursor: pointer;
 }
+
+/*Adopted from @lasjorg*/
+/*Edited by @malpete*/
