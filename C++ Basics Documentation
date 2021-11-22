@@ -1,0 +1,201 @@
+<nav id="navbar">
+  <header>Documentation: C++ Basics</header>
+  <ul>
+    <li><a class="nav-link" href="#About_C++">About C++</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#Guidelines">Guidelines</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#What_is_C++">What is C++</a>
+    </li>
+    <li>
+      <a class="nav-link" href="#C++_Syntax">C++ Syntax</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#C++_Statements">C++ Statements</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#C++_Classes">C++ Classes</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#C++_Member_Functions">C++ Member Functions</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#C++_Expressions">C++ Expressions</a>
+    </li>
+    <li>
+    <a class="nav-link" href="#Source_Documentation">Source Documentation</a>
+    </li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="About_C++">
+    <header>About C++</header>
+    <article>
+      <p>
+        C++ is an open source library that performs a variety of functions and conforms to the implementation standards of the C++ Standard Library, including both input and output functions.
+      </p>
+      
+      <p>
+        The C++ Library can also be used for multiple operations which include syntax, statements, classes, member functions, and expressions.
+    </article>
+  </section>
+  
+  <section class="main-section" id="Guidelines">
+    <header>Guidelines</header>
+    <p>Using this documentation webpage means you have knowledge or understanding of the following:</p>
+    
+    <ul>
+      <li>
+        General knowledge of the World Wide Web(www.).
+      </li>
+      <li>
+        General coding experience with C style programming languages. Links to the tutorials page can be located in the Source Documentation Tab at the end of this webpage.
+      </li>
+    </ul>
+    </article>
+  </section>
+
+<section class="main-section" id="What_is_C++">
+  <header>What is C++</header>
+  <article>
+    <p>
+      C++ uses headers and declarations as a byproduct of the Standard C++ Library. All syntax includes the library from the first revision and includes:
+    </p>
+      <ul>
+        <li>
+          Object Oriented Programming
+        </li>
+        </ul>
+       <ul>
+         <li>
+         Expressions
+         </li>
+           </ul>
+    <p>
+      All other C++ expressions can be found in the source documentation below.
+    </p>
+  </article>
+</section>
+
+<section class="main-section" id="C++_Syntax">
+  <header>C++ Syntax</header>
+  <article>
+    <p>
+      Learning the basics will help you get started on any programming language, but it's up to you to dedicate yourself to improving upon these concepts.
+    </p>
+    <p>
+      Let's begin with the basics as seen below:
+    </p>
+    <ul>
+      <li>
+        Hello World
+    </ul>
+    </li>
+        <code> #include iostream
+          int main() {
+              std::cout << "Hello World!"
+              return 0;
+          }</code>
+          Hit Ctrl+R to get started on this tutorial!
+  </article>
+</section>
+
+<section class="main-section" id="C++_Statements">
+  <header>C++ Statements</header>
+  <p>
+    General statements include the if, while, and do loops.
+    <ul>
+      <li>
+        if Statements
+      </li>
+  </ul>
+  <code>
+  if(condition){
+   code is executed here
+    } </code>
+  <ul>
+    <li>
+      while Statements
+    </li>
+  </ul>
+  <code>
+   while(condition){
+    code is executed here
+    }
+  </code>
+  <ul>
+    <li>
+      do Statements
+    </li>
+  </ul>
+  <code>
+    do(condition){
+    code is executed here
+    }
+  </code>
+    </article>
+</section>
+
+<section class="main-section" id="C++_Classes">
+  <header>C++ Classes</header>
+  <article>
+    <p>
+      Class and objects in C++ can be categorized as such since it is an object oriented language. This includes its access specifiers public, private, and protected. Starting with creating a class, adding the specifier, and including the variables. Shown here,
+    </p>
+        <code> 
+          class AClass{
+          public:
+              int aName;
+              string aString;
+          }</code>
+    Hit Ctrl+R to get started on this tutorial!
+  </article>
+</section>
+
+<section class="main-section" id="C++_Member_Functions">
+  <header>C++ Member Functions</header>
+  <article>
+    <p>
+      Member Functions are chunks of code that perform multiple operations within its input parameters and return a value upon input. For example,
+    </p>
+    <code>
+      int sum(int a, int b)
+      {
+      return a + b;
+      }</code>
+      Hit Ctrl+R to get started on this tutorial!
+    <p>
+      This simulates a and b as a math problem using the "+" operator as a math function.
+  </article>
+</section>
+<section class="main-section" id="C++_Expressions">
+  <header>C++ Expressions</header>
+  <article>
+    <p>
+      Expressions are useful when using pointers. These pointers can be attached to any literal strings, name strings, and names that qualify within the scope of the operator. As shown here,
+    </p>
+ <code>
+   class Example
+   {
+   public:
+    void Func();
+    void Func() const;
+    void Func() volatile;
+   };</code>
+    Hit Ctrl+R to get started on this tutorial!
+  </article>
+</section>
+
+<section class="main-section" id="Source_Documentation">
+  <header>Source Documentation</header>
+  <article>
+    <ul> 
+      <li>
+        C++ Basics references are used from <a href="https://docs.microsoft.com/en-us/cpp/?view=msvc-170" target="_blank">Microsoft C/C++ Documentation</a>
+      </li>
+    </ul>
+  </article>
+</section>
+</main>
