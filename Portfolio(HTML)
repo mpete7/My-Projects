@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"
+/>
+<link href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap" rel="stylesheet"/>
+
+<nav id="navbar" class="nav">
+  <ul class="nav-list">
+    <li>
+      <a href="#welcome-section">Welcome to my Portfolio!</a>
+    </li>
+    <li>
+      <a href="#projects">Projects</a>
+    </li>
+    <li>
+      <a href="#contact">Contact Info</a>
+    </li>
+  </ul>
+</nav>
+
+<section id="welcome-section" class="welcome-section">
+  <h1>Hi, my name is Malcolm</h1>
+  <p>and i am a Computer Engineer</p>
+</section>
+
+<section id="projects" class="projects-section">
+  <h2 class="projects-section-header">Here are some of my best projects that i have completed</h2>
+  
+  <div class="projects-grid">
+    <a href="https://codepen.io/m0x0p01/pen/GRvLgdG" target="_blank" class="project project-title">
+      <img class="project-image" src="https://cdn.vox-cdn.com/thumbor/VkpZk_WQSQvGe9T7YYOZscGsOwI=/0x86:706x557/1200x800/filters:focal(0x86:706x557)/cdn.vox-cdn.com/assets/738480/stevejobs.png" alt="project"/>
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Steve Jobs - In Memoriam
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a href="https://codepen.io/m0x0p01/pen/oNeOpBY" target="blank" class="project project-tile"><img class="project image" src="https://medicalwaveus.com/wp-content/uploads/2020/06/football-injuries-causes-treatment-recovery.jpg" alt="project"/>
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        Football Injury Survey
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a href="https://codepen.io/m0x0p01/pen/ExvJLPx" target="_blank" class="project project-title"><img class="project-image" src="https://1.bp.blogspot.com/-8YwwigHC7Y8/YLOWuJUb6uI/AAAAAAAATMg/7UO-nFk4gOEP-XwtCyilx-2AWFj_GY1pwCLcBGAsYHQ/s2048/basics-of-c-plus-plus-programming.png" alt="project"/>
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        C++ Basics: A Documentation
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+    <a href="https://codepen.io/m0x0p01/pen/rNzbpmB" target="_blank" class="project project-tile">
+      <img class="project-image" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/computer-design-template-926828f3165da1b0c2daf69f2eddb072_screen.jpg?ts=1626775298" alt="project"/>
+      <p class="project-title">
+        <span class="code">&lt;</span>
+        A Computer Shop Webpage
+        <span class="code">&#47;&gt;</span>
+      </p>
+    </a>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <div class="contact-section-header">
+    <h2>"Engineers must stick together and help one another."<h2>
+      <p>How do you work?<p>
+      </div>
+      <div class="contact links">
+        <a href="https://www.linkedin.com/in/malcolm-peterson-438859164/" target="_blank" class="btn contact-details"><i class="fab fa-linkedin-square"></i>LinkedIn</a>
+        <a id="profile-link" href="https://github.com/mpete7" target="_blank" class="btn contact-details"><i class="fab fa-github"></i> GitHub</a>
+        <a href="mailto:petersonm1993@gmail.com" class="btn contact-details"><i class="fas fa-gmail"></i>
+          <a href="tel:803-319-1292" class="btn contact-details"><i class="fas fa-mobile-alt"></i>Call me</a>
+          </div>
+        </section>
+      
+<footer>
+  <p>
+    "Portfolio under construction"
+  </p>
+  <p>
+    &copy; Created for Engineers.
